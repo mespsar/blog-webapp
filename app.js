@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose=require("mongoose")
-// mongoose.connect("mongodb+srv://suryapal:surya12345six@cluster0.bfzxp.gcp.mongodb.net/blogDB",{useNewUrlParser:true,useUnifiedTopology: true})
+
 mongoose.connect("mongodb://localhost:27017/blogDB",{useNewUrlParser:true,useUnifiedTopology: true})
 var lodash = require('lodash');
 
